@@ -1,0 +1,57 @@
+# Виртуальное окружение
+venv/
+env/
+.venv/
+
+# Файлы, созданные редакторами и IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.pyc
+__pycache__/
+
+# Файлы с конфиденциальными данными
+.env
+.secrets
+*.key
+*.pem
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.pid
+
+# Файлы базы данных (если используются)
+*.db
+*.sqlite3
+
+# Файлы, созданные Flask
+instance/
+
+# Файлы, созданные setuptools/distutils
+build/
+dist/
+*.egg-info/
+
+# Файлы, созданные pytest
+.pytest_cache/
+
+# Файлы, созданные pip
+pip-selfcheck.json
+
+# Файлы, созданные macOS
+.DS_Store
+
+# Файлы, созданные Windows
+Thumbs.db
+
+# Файлы, созданные Jupyter Notebook
+.ipynb_checkpoints/
+
+# Файлы, созданные PyCharm
+.idea/
+*.iml
+
+# Файлы, созданные Visual Studio Code
+.vscode/
